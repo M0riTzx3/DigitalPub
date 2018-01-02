@@ -59,12 +59,6 @@
 
             <br>
 
-            <!--<form class="col-lg-12">
-              <div class="input-group input-group-lg col-sm-offset-4 col-sm-4">
-                <input type="text" class="center-block form-control input-lg" title="Enter you email." placeholder="Enter your email address">
-                <span class="input-group-btn"><button class="btn btn-lg btn-primary" type="button">Sign Up</button></span>
-              </div>
-            </form>-->
         </div>
 
     </div> <!-- /row -->
@@ -75,25 +69,25 @@
 </div> <!-- /container full -->
 <div>
     <br><br>
-    <form>
+    <form action="/signUp" method="post">
         <div class="col-md-12 text-center" id="signUpWrapper">
             <div class="input-group input-group-md col-sm-offset-4 col-sm-4">
-                <input type="text" class="center-block form-control input-lg" title="Enter you email." placeholder="Enter your email address">
+                <input name="email" type="text" class="center-block form-control input-lg" title="Enter you email." placeholder="Enter your email address">
             </div>
             <br>
             <div class="input-group input-group-md col-sm-offset-4 col-sm-4">
-                <input type="text" class="center-block form-control input-lg" title="Enter nickname" placeholder="Enter nickname">
+                <input name="nickname" type="text" class="center-block form-control input-lg" title="Enter nickname" placeholder="Enter nickname">
             </div>
             <br>
             <div class="input-group input-group-md col-sm-offset-4 col-sm-4">
-                <input type="text" class="center-block form-control input-lg" title="Enter password" placeholder="Enter password">
+                <input name="password" type="text" class="center-block form-control input-lg" title="Enter password" placeholder="Enter password">
             </div>
             <br>
             <div class="input-group input-group-md col-sm-offset-4 col-sm-4">
                 <input type="text" class="center-block form-control input-lg" title="Repeat password" placeholder="Repeat password">
             </div>
             <br>
-            <span class="input-group-btn"><button onclick="" class="btn btn-lg btn-primary" type="submit">Sign Up</button></span>
+            <span class="input-group-btn"><button class="btn btn-lg btn-primary" type="submit">Sign Up</button></span>
         </div>
     </form>
 

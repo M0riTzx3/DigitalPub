@@ -54,13 +54,6 @@
       <p class="lead">A place to meet online</p>
 
       <br>
-
-      <!--<form class="col-lg-12">
-        <div class="input-group input-group-lg col-sm-offset-4 col-sm-4">
-          <input type="text" class="center-block form-control input-lg" title="Enter you email." placeholder="Enter your email address">
-          <span class="input-group-btn"><button class="btn btn-lg btn-primary" type="button">Sign Up</button></span>
-        </div>
-      </form>-->
     </div>
 
   </div> <!-- /row -->
