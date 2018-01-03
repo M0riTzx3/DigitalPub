@@ -23,6 +23,11 @@ public class SignUpController {
     public String signUpPagePostForm(@ModelAttribute SignUpForm signUpForm, Model model){
         SignUpService signUpService = new SignUpService();
         signUpService.signUpUser(signUpForm);
-        return "signUp";
+        if(signUpService.isUserSignedUp()){
+            return "signUpSuccessPage";
+        }else{
+            return "signUpErrorPage";
+        }
+
     }
 }

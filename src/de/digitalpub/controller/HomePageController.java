@@ -2,6 +2,7 @@ package de.digitalpub.controller;
 
 
 import de.digitalpub.controller.form.LoginForm;
+import de.digitalpub.controller.services.LoginService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -20,8 +21,12 @@ public class HomePageController{
 
     @RequestMapping(value = "/", method = RequestMethod.POST)
     public String homePagePost(@ModelAttribute LoginForm form, Model model){
-
-        return "index";
+        LoginService loginService = new LoginService();
+        loginService.logIn(form);
+        if(loginService.isLoginState()){
+            return "home";
+        }
+        return "loginErrorPage";
     }
 
 

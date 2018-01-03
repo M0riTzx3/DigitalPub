@@ -72,7 +72,7 @@
     <form action="/signUp" method="post">
         <div class="col-md-12 text-center" id="signUpWrapper">
             <div class="input-group input-group-md col-sm-offset-4 col-sm-4">
-                <input name="email" type="text" class="center-block form-control input-lg" title="Enter you email." placeholder="Enter your email address">
+                <input name="email" type="email" class="center-block form-control input-lg" title="Enter you email." placeholder="Enter your email address">
             </div>
             <br>
             <div class="input-group input-group-md col-sm-offset-4 col-sm-4">
@@ -80,11 +80,11 @@
             </div>
             <br>
             <div class="input-group input-group-md col-sm-offset-4 col-sm-4">
-                <input name="password" type="text" class="center-block form-control input-lg" title="Enter password" placeholder="Enter password">
+                <input name="password" type="password" class="center-block form-control input-lg" title="Enter password" placeholder="Enter password">
             </div>
             <br>
             <div class="input-group input-group-md col-sm-offset-4 col-sm-4">
-                <input type="text" class="center-block form-control input-lg" title="Repeat password" placeholder="Repeat password">
+                <input type="password" class="center-block form-control input-lg" title="Repeat password" placeholder="Repeat password">
             </div>
             <br>
             <span class="input-group-btn"><button class="btn btn-lg btn-primary" type="submit">Sign Up</button></span>

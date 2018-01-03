@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Antic+Slab);
+@import "bourbon";
 
 html,body {
   height:100%;
@@ -14,6 +15,7 @@ h1 {
 	color:#DDCCEE;
 }
 
+
 .nav-item{
   margin-top:5px;
   margin-right: 5px;
@@ -25,9 +27,6 @@ h1 {
 }.nav-item:hover{
   background: #3e71c4;
 }
-
-
-@import "bourbon";
 
 body {
 	background: #eee !important;
@@ -68,12 +67,14 @@ body {
 
 	input[type="text"] {
 	  margin-bottom: -1px;
+        display: inline-block;
 	  border-bottom-left-radius: 0;
 	  border-bottom-right-radius: 0;
 	}
 
 	input[type="password"] {
 	  margin-bottom: 20px;
+        display: inline-block;
 	  border-top-left-radius: 0;
 	  border-top-right-radius: 0;
 	}
@@ -148,13 +149,17 @@ input[type="submit"] {
   position: absolute;
   right: 5px;
   top: 60px;
+    background: azure;
 }
 
 #loginHeader{
   font-size: 35px;
   color:black;
   height: auto;
+}
 
+#checkboxText{
+    color:black;
 }
 
 .col-md-12{
@@ -172,4 +177,4 @@ footer{
   height: 100px;
   width: 100%;
   overflow:hidden;
-}
+

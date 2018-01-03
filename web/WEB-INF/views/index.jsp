@@ -10,8 +10,9 @@
   <meta name="author" content="">
   <meta name="keywords" content="">
   <link href="<c:url value="/resources/Startseite.css" />" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-latest.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="<c:url value="/resources/index.js" />"></script>
 
 </head>
@@ -32,19 +33,27 @@
         <a id="logInLink"><span class="glyphicon glyphicon-log-in"></span> Login</a>
       </li>
     </ul>
-    <form id="loginForm"  class="form-signin">
-      <h2 id="loginHeader" class="form-signin-heading">Please sign in</h2>
-      <label for="inputEmail" class="sr-only">Email address</label>
-      <input id="inputEmail" name="email" class="form-control" placeholder="Email address" required="" autofocus="" type="email">
-      <label for="inputPassword" class="sr-only">Password</label>
-      <input id="inputPassword" name="password" class="form-control" placeholder="Password" required="" type="password">
-      <div class="checkbox">
-        <label>
-          <input value="remember-me" type="checkbox"> Remember me
-        </label>
-      </div>
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-    </form>
+
+      <form id="loginForm" action="/" class="form-signin">
+        <h2 id="loginHeader" class="form-signin-heading">Please login</h2>
+        <p style="color: black">Use your Email and Password to login</p>
+        <br>
+        <div class="row">
+          <label class="sr-only">Email address</label>
+          <input id="inputEmail" name="email" class="form-control" placeholder="Email address" type="text">
+          <label class="sr-only">Password</label>
+          <input id="inputPassword" name="password" class="form-control" placeholder="Password" type="text">
+          <a><span style="color:royalblue">Forgot password?</span></a>
+        </div>
+        <div class="checkbox-inline">
+          <label style="color: grey">
+            <input  value="remember-me" type="checkbox"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
+
+
   </nav>
 
   <div class="row">

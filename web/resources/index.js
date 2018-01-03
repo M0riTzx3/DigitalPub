@@ -7,6 +7,7 @@ $(document).ready(function(){
   $("#logInLink").click(function(){
 
     if (counter === 0) {
+        // language=JQuery-CSS
         $("#loginForm").css("display","block");
         counter = 1;
     }else{
