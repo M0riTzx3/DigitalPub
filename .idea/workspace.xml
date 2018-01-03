@@ -6,29 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f95c9855-f313-405c-9015-39d8b835b432" name="Default" comment="Added: Registration, Database support, Registration Success and Error page, login">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DigitalPub/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DigitalPub/.idea/libraries/mysql_connector_java_5_1_44_bin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/LoginController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/data/DatabaseData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/services/LoginService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DigitalPub/web/WEB-INF/views/home.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DigitalPub/web/WEB-INF/views/loginErrorPage.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DigitalPub/web/WEB-INF/views/signUpErrorPage.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DigitalPub/web/WEB-INF/views/signUpSuccessPage.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DigitalPub/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_6.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DigitalPub/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../DigitalPub/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DigitalPub/DigitalPub.iml" afterPath="$PROJECT_DIR$/../DigitalPub/DigitalPub.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DigitalPub/pom.xml" afterPath="$PROJECT_DIR$/../DigitalPub/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/HomePageController.java" afterPath="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/HomePageController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/SignUpController.java" afterPath="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/SignUpController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/services/DatabaseService.java" afterPath="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/services/DatabaseService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/services/SignUpService.java" afterPath="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/services/SignUpService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DigitalPub/web/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/../DigitalPub/web/WEB-INF/views/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DigitalPub/web/WEB-INF/views/signUp.jsp" afterPath="$PROJECT_DIR$/../DigitalPub/web/WEB-INF/views/signUp.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DigitalPub/web/resources/index.js" afterPath="$PROJECT_DIR$/../DigitalPub/web/resources/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DigitalPub/web/resources/login.css" afterPath="$PROJECT_DIR$/../DigitalPub/web/resources/login.css" />
-    </list>
+    <list default="true" id="f95c9855-f313-405c-9015-39d8b835b432" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/../DigitalPub/out/" />
     <ignored path="$PROJECT_DIR$/../DigitalPub/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -765,7 +743,7 @@
       <option name="presentableId" value="Default" />
       <updated>1513860041570</updated>
       <workItem from="1513860045648" duration="4721000" />
-      <workItem from="1513926499146" duration="40874000" />
+      <workItem from="1513926499146" duration="40888000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1514889884910</created>
@@ -781,11 +759,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514909619453</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added: Registration, Database support, Registration Success and Error page, login">
+      <created>1514983558017</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1514983558017</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45595000" />
+    <option name="totallyTimeSpent" value="45609000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
