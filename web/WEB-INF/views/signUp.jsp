@@ -30,10 +30,7 @@
                 <a class="nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a id="logInLink"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                <a id="logInLink" href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a>
             </li>
         </ul>
         <form id="loginForm" class="form-signin">

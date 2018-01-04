@@ -13,9 +13,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <script src="<c:url value="/resources/index.js" />"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+
 
 </head>
 <body>
+<script src="<c:url value="/resources/socketHandler.js" />"></script>
 <div class="container-full">
     <nav>
         <ul class="nav nav-pills float-right" style="float: right">
@@ -23,10 +26,10 @@
                 <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#">Profile</a>
             </li>
             <li class="nav-item">
-                <a id="logInLink"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                <a class="nav-link" href="/home">Logout</a>
             </li>
         </ul>
     </nav>

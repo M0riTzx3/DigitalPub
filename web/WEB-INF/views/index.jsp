@@ -23,46 +23,28 @@
       <li class="nav-item ">
         <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
       <li  class="nav-item">
         <a id="signUpLink" href="/signUp"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
       </li>
       <li class="nav-item">
-        <a id="logInLink"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+        <a id="logInLink" href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a>
       </li>
     </ul>
-
-      <form id="loginForm" action="/" class="form-signin">
-        <h2 id="loginHeader" class="form-signin-heading">Please login</h2>
-        <p style="color: black">Use your Email and Password to login</p>
-        <br>
-        <div class="row">
-          <label class="sr-only">Email address</label>
-          <input id="inputEmail" name="email" class="form-control" placeholder="Email address" type="text">
-          <label class="sr-only">Password</label>
-          <input id="inputPassword" name="password" class="form-control" placeholder="Password" type="text">
-          <a><span style="color:royalblue">Forgot password?</span></a>
-        </div>
-        <div class="checkbox-inline">
-          <label style="color: grey">
-            <input  value="remember-me" type="checkbox"> Remember me
-          </label>
-        </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      </form>
-
 
   </nav>
 
   <div class="row">
 
-    <div class="col-lg-12 text-center v-center">
+    <div class="col-md-4 text-center v-center">
+    </div>
+    <div class="col-md-4 text-center v-center">
+      <br>
       <h1>DigitalPub</h1>
       <p class="lead">A place to meet online</p>
 
       <br>
+    </div>
+    <div class="col-md-4 text-center v-center">
     </div>
 
   </div> <!-- /row -->

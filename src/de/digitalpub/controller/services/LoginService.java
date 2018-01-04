@@ -18,23 +18,21 @@ public class LoginService extends DatabaseData{
     public void logIn(LoginForm loginForm){
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            setConn(DriverManager.getConnection("jdbc:mysql://localhost:3306/userdatabaseNew" , getDbUser() , getDbPass()));
+            setConn(DriverManager.getConnection("jdbc:mysql://localhost:3306/userdatabase" , getDbUser() , getDbPass()));
 
             Statement statement = getConn().createStatement();
-            ResultSet resultSet = statement.executeQuery("SELECT * FROM users WHERE userID = " + loginForm.getEmail());
+            ResultSet resultSet = statement.executeQuery("SELECT * FROM userdatabase.users WHERE email = '" + loginForm.getEmail() + "'");
 
             String passwordDecoded = Base64.getEncoder().encodeToString(loginForm.getPassword().getBytes("utf-8"));
 
             while(resultSet.next()){
-                if(resultSet.getString("whichType").equals("Admin")){
-                    if(String.valueOf(resultSet.getInt("userID")).equals(loginForm.getEmail()) &&
-                            resultSet.getString("password").equals(passwordDecoded) ){
-                        System.out.println("LOGIN ERFOLGREICH");
-                        loginState = true;
-                    }else {
-                        System.out.println("LOGIN FEHLGESCHLAGEN");
-                        loginState = false;
-                    }
+                if(String.valueOf(resultSet.getString("email")).equals(loginForm.getEmail()) &&
+                        resultSet.getString("password").equals(passwordDecoded) ){
+                    System.out.println("LOGIN ERFOLGREICH");
+                    loginState = true;
+                }else {
+                    System.out.println("LOGIN FEHLGESCHLAGEN");
+                    loginState = false;
                 }
             }
         } catch (SQLException | ClassNotFoundException | IOException e) {
