@@ -35,12 +35,16 @@
     </nav>
 
     <div class="row">
-
-        <div class="col-lg-12 text-center v-center">
+        <div class="col-md-4 text-center v-center">
+        </div>
+        <div class="col-md-4 text-center v-center">
+            <br>
             <h1>DigitalPub</h1>
             <p class="lead">A place to meet online</p>
 
             <br>
+        </div>
+        <div class="col-md-4 text-center v-center">
         </div>
 
     </div> <!-- /row -->

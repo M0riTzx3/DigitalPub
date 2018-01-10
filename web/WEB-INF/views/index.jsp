@@ -21,7 +21,7 @@
   <nav>
     <ul class="nav nav-pills float-right" style="float: right">
       <li class="nav-item ">
-        <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class=" nav-link active" href="#"> <span class="glyphicon glyphicon-home"></span> Home</a>
       </li>
       <li  class="nav-item">
         <a id="signUpLink" href="/signUp"><span class="glyphicon glyphicon-user"></span> Sign Up</a>

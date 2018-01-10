@@ -24,9 +24,9 @@ public class SignUpController {
         SignUpService signUpService = new SignUpService();
         signUpService.signUpUser(signUpForm);
         if(signUpService.isUserSignedUp()){
-            return "signUpSuccessPage";
+            return "redirect:/signUpSuccessPage";
         }else{
-            return "signUpErrorPage";
+            return "redirect:/errorPage";
         }
 
     }

@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <script src="<c:url value="/resources/index.js" />"></script>
-
 </head>
 <body>
 <div class="container-full">
@@ -22,7 +21,6 @@
             <li class="nav-item ">
                 <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
-
             <li  class="nav-item">
                 <a id="signUpLink" href="/signUp"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
             </li>

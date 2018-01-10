@@ -26,7 +26,7 @@ public class LoginController {
 
             return "redirect:/home";
         }else{
-            return "loginErrorPage";
+            return "redirect:/errorPage";
         }
     }
 

@@ -26,7 +26,7 @@ public class HomePageController{
         if(loginService.isLoginState()){
             return "home";
         }
-        return "loginErrorPage";
+        return "errorPage";
     }
 
 
