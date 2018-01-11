@@ -21,13 +21,6 @@ public class SignUpController {
 
     @RequestMapping(value = "signUp", method = RequestMethod.POST)
     public String signUpPagePostForm(@ModelAttribute SignUpForm signUpForm, Model model){
-        SignUpService signUpService = new SignUpService();
-        signUpService.signUpUser(signUpForm);
-        if(signUpService.isUserSignedUp()){
-            return "redirect:/signUpSuccessPage";
-        }else{
-            return "redirect:/errorPage";
-        }
-
+        return "redirect:/signUpSuccessPage";
     }
 }

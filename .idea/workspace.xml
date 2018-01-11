@@ -7,20 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f95c9855-f313-405c-9015-39d8b835b432" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DigitalPub/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/form/UserProfileDAO.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DigitalPub/web/WEB-INF/views/loginErrorPage.jsp" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../DigitalPub/web/WEB-INF/views/signUpErrorPage.jsp" afterPath="$PROJECT_DIR$/../DigitalPub/web/WEB-INF/views/errorPage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DigitalPub/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/../DigitalPub/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DigitalPub/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../DigitalPub/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DigitalPub/DigitalPub.iml" afterPath="$PROJECT_DIR$/../DigitalPub/DigitalPub.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DigitalPub/pom.xml" afterPath="$PROJECT_DIR$/../DigitalPub/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/HomeController.java" afterPath="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/HomeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/HomePageController.java" afterPath="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/HomePageController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/LoginController.java" afterPath="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/LoginController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/SignUpController.java" afterPath="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/SignUpController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DigitalPub/web/WEB-INF/views/home.jsp" afterPath="$PROJECT_DIR$/../DigitalPub/web/WEB-INF/views/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DigitalPub/web/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/../DigitalPub/web/WEB-INF/views/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/../DigitalPub/out/" />
     <ignored path="$PROJECT_DIR$/../DigitalPub/target/" />
@@ -107,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SignUpController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SignUpController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/SignUpController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            <state relative-caret-position="340">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -120,9 +109,12 @@
       <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="255">
+              <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+              <folding>
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,11 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -240,13 +232,13 @@
         <option value="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/form/UserProfileDAO.java" />
         <option value="$PROJECT_DIR$/../DigitalPub/web/WEB-INF/views/home.jsp" />
         <option value="$PROJECT_DIR$/../DigitalPub/web/WEB-INF/views/index.jsp" />
-        <option value="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/SignUpController.java" />
-        <option value="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/HomePageController.java" />
         <option value="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/services/DatabaseService.java" />
         <option value="$PROJECT_DIR$/../DigitalPub/pom.xml" />
         <option value="$PROJECT_DIR$/../DigitalPub/out/artifacts/DigitalPub_war_exploded/WEB-INF/views/home.jsp" />
         <option value="$PROJECT_DIR$/../DigitalPub/web/WEB-INF/views/errorPage.jsp" />
+        <option value="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/SignUpController.java" />
       </list>
     </option>
   </component>
@@ -324,6 +316,41 @@
             <path>
               <item name="DigitalPub" type="b2602c69:ProjectViewProjectNode" />
               <item name="DigitalPub" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DigitalPub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DigitalPub" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DigitalPub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DigitalPub" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="DigitalPub_war_exploded" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DigitalPub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DigitalPub" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="DigitalPub_war_exploded" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DigitalPub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DigitalPub" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="DigitalPub_war_exploded" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DigitalPub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DigitalPub" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -386,11 +413,6 @@
             <path>
               <item name="DigitalPub" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="DigitalPub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sockjs" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -671,7 +693,7 @@
       <workItem from="1513926499146" duration="59017000" />
       <workItem from="1515484974685" duration="3286000" />
       <workItem from="1515489626468" duration="31000" />
-      <workItem from="1515491091490" duration="7294000" />
+      <workItem from="1515491091490" duration="8903000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1514889884910</created>
@@ -708,11 +730,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515058738878</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added: login">
+      <created>1515578454277</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1515578454277</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74349000" />
+    <option name="totallyTimeSpent" value="75958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1082,22 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/SignUpController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/HomePageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -1108,8 +1121,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DigitalPub/src/de/digitalpub/controller/SignUpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>

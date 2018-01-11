@@ -20,14 +20,7 @@ public class LoginController {
 
     @RequestMapping(value = "login", method = RequestMethod.POST)
     public String loginPagePost(@ModelAttribute LoginForm form, Model model){
-        LoginService loginService = new LoginService();
-        loginService.logIn(form);
-        if(loginService.isLoginState()){
-
             return "redirect:/home";
-        }else{
-            return "redirect:/errorPage";
-        }
     }
 
 }
