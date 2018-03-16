@@ -14,6 +14,10 @@
           <option name="url" value="https://github.com/M0riTzx3/DigitalPub.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@bitbucket.org:patrick_fey/car-park-fitment.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\aa94272\IdeaProjects" />
