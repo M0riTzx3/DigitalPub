@@ -1,6 +1,5 @@
 package de.digitalpub.controller.services;
 
-
 import de.digitalpub.controller.model.Role;
 import de.digitalpub.controller.model.User;
 import de.digitalpub.controller.repository.UserRepository;
@@ -11,6 +10,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.transaction.annotation.Transactional;
+
 import java.util.HashSet;
 import java.util.Set;
 

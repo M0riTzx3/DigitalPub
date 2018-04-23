@@ -16,23 +16,23 @@ public class SignUpService extends DatabaseData{
     private boolean userSignedUp = false;
     private boolean databaseCreated = false;
 
-    public void signUpUser(SignUpForm signUpForm){
-        userSignedUp = false;
-        connectToDatabase();
-        signUp(signUpForm);
-    }
+    //public void signUpUser(SignUpForm signUpForm){
+    //    userSignedUp = false;
+    //    connectToDatabase();
+    //    signUp(signUpForm);
+    //}
 
-    private void connectToDatabase() {
-        if(!databaseCreated) {
-            DatabaseService databaseService = new DatabaseService();
-            databaseService.createDatabase();
-            databaseService.createUserTable();
-            databaseCreated = true;
-        }else{
-            System.out.println("Database is already set up");
-        }
-    }
-
+   // private void connectToDatabase() {
+   //     if(!databaseCreated) {
+   //         DatabaseService databaseService = new DatabaseService();
+   //         databaseService.createDatabase();
+   //         databaseService.createUserTable();
+   //         databaseCreated = true;
+   //     }else{
+   //         System.out.println("Database is already set up");
+   //     }
+   // }
+//
     private void signUp(SignUpForm signUpForm){
         try {
             //load JDBC

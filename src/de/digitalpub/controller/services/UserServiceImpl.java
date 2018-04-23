@@ -1,6 +1,5 @@
 package de.digitalpub.controller.services;
 
-
 import de.digitalpub.controller.model.User;
 import de.digitalpub.controller.repository.RoleRepository;
 import de.digitalpub.controller.repository.UserRepository;

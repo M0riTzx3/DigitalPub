@@ -22,7 +22,7 @@ public class HomePageController{
     @RequestMapping(value = "/", method = RequestMethod.POST)
     public String homePagePost(@ModelAttribute LoginForm form, Model model){
         LoginService loginService = new LoginService();
-        loginService.logIn(form);
+       // loginService.logIn(form);
         if(loginService.isLoginState()){
             return "home";
         }
