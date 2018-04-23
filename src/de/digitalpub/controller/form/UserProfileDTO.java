@@ -1,6 +1,6 @@
 package de.digitalpub.controller.form;
 
-public class UserProfileDAO {
+public class UserProfileDTO {
 
     private String nickname;
     private String email;

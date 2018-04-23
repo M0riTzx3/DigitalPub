@@ -1,11 +1,21 @@
 package de.digitalpub.controller.form;
 
+import com.sun.istack.internal.NotNull;
+
 public class SignUpForm {
 
+
+    @NotNull
     private String email;
+
+    @NotNull
     private String nickname;
+
+    @NotNull
     private String password;
 
+    @NotNull
+    private String repeatedPassword;
 
     public String getEmail() {
         return email;
@@ -29,5 +39,13 @@ public class SignUpForm {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getRepeatedPassword() {
+        return repeatedPassword;
+    }
+
+    public void setRepeatedPassword(String repeatedPassword) {
+        this.repeatedPassword = repeatedPassword;
     }
 }

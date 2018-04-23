@@ -8,8 +8,8 @@ public class DatabaseData {
     private String dbHost = "localhost";                      //Host
     private String dbPort = "3306";                          //Port
     private String dbName = "";                 //Database name
-    private String dbUser = "moritz_ebert";                 //Username
-    private String dbPass = "123456";                        //User password
+    private String dbUser = "root";                 //Username
+    private String dbPass = "";                        //User password
 
     public void setConn(Connection conn) {
         this.conn = conn;

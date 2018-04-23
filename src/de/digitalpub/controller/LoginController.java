@@ -13,13 +13,19 @@ import org.springframework.web.servlet.ModelAndView;
 public class LoginController {
 
     @RequestMapping(value = "login", method = RequestMethod.GET)
-    public String loginPage(Model model){
+    public String login(Model model, String error, String logout){
+        if (error != null)
+            model.addAttribute("error", "Your username and password is invalid.");
+
+        if (logout != null)
+            model.addAttribute("message", "You have been logged out successfully.");
 
         return "login";
     }
 
-    @RequestMapping(value = "login", method = RequestMethod.POST)
-    public String loginPagePost(@ModelAttribute LoginForm form, Model model){
+    @RequestMapping(value = {"/", "/home"}, method = RequestMethod.POST)
+    public String welcome(Model model){
+
             return "redirect:/home";
     }
 
