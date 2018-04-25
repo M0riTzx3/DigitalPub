@@ -1,4 +1,4 @@
-package de.digitalpub.controller.data;
+package de.digitalpub.data;
 
 import java.sql.Connection;
 

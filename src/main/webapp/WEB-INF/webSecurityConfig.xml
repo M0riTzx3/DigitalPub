@@ -25,7 +25,7 @@
     </http>
 
     <beans:bean id="userDetailsService"
-                class="de.digitalpub.controller.services.DatabaseUserDetailsService">
+                class="de.digitalpub.services.DatabaseUserDetailsService">
 
         <beans:property name="userRepository" ref="userRepository"/>
     </beans:bean>

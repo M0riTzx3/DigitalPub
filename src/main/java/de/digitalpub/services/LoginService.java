@@ -1,7 +1,7 @@
-package de.digitalpub.controller.services;
+package de.digitalpub.services;
 
-import de.digitalpub.controller.data.DatabaseData;
-import de.digitalpub.controller.form.LoginForm;
+import de.digitalpub.data.DatabaseData;
+import de.digitalpub.form.LoginForm;
 
 import java.io.IOException;
 import java.sql.DriverManager;
@@ -10,7 +10,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Base64;
 
-public class LoginService extends DatabaseData{
+public class LoginService extends DatabaseData {
 
     private boolean loginState = false;
 

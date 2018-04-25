@@ -1,6 +1,5 @@
-package de.digitalpub.controller;
+package de.digitalpub;
 
-import de.digitalpub.controller.form.LoginForm;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,11 +1,11 @@
-package de.digitalpub.controller.services;
+package de.digitalpub.services;
 
-import de.digitalpub.controller.data.DatabaseData;
+import de.digitalpub.data.DatabaseData;
 
 import java.sql.DriverManager;
 import java.sql.Statement;
 
-public class DatabaseService extends DatabaseData{
+public class DatabaseService extends DatabaseData {
 
     public void createDatabase(){
         try{

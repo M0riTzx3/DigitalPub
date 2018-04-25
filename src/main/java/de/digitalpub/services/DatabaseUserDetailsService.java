@@ -1,8 +1,7 @@
-package de.digitalpub.controller.services;
+package de.digitalpub.services;
 
-import de.digitalpub.controller.dao.UserRepository;
-import de.digitalpub.controller.dao.model.UserModel;
-import org.springframework.beans.factory.annotation.Autowired;
+import de.digitalpub.dao.UserRepository;
+import de.digitalpub.dao.model.UserModel;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

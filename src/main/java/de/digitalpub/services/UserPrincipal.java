@@ -1,6 +1,6 @@
-package de.digitalpub.controller.services;
+package de.digitalpub.services;
 
-import de.digitalpub.controller.dao.model.UserModel;
+import de.digitalpub.dao.model.UserModel;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

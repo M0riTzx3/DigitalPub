@@ -1,4 +1,4 @@
-package de.digitalpub.controller.form;
+package de.digitalpub.form;
 
 public class LoginForm {
 

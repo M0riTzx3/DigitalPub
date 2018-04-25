@@ -1,8 +1,8 @@
-package de.digitalpub.controller.services;
+package de.digitalpub.services;
 
-import de.digitalpub.controller.dao.UserRepository;
-import de.digitalpub.controller.dao.model.UserModel;
-import de.digitalpub.controller.form.SignUpForm;
+import de.digitalpub.dao.UserRepository;
+import de.digitalpub.dao.model.UserModel;
+import de.digitalpub.form.SignUpForm;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

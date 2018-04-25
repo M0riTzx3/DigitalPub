@@ -1,11 +1,10 @@
-package de.digitalpub.controller;
+package de.digitalpub;
 
-import de.digitalpub.controller.form.SignUpForm;
-import de.digitalpub.controller.services.SignUpService;
+import de.digitalpub.form.SignUpForm;
+import de.digitalpub.services.SignUpService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 

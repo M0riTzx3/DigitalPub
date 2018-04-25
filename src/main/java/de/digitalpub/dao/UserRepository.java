@@ -1,6 +1,6 @@
-package de.digitalpub.controller.dao;
+package de.digitalpub.dao;
 
-import de.digitalpub.controller.dao.model.UserModel;
+import de.digitalpub.dao.model.UserModel;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

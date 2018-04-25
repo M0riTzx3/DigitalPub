@@ -1,4 +1,4 @@
-package de.digitalpub.controller.dao.model;
+package de.digitalpub.dao.model;
 
 
 import javax.persistence.*;
