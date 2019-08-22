@@ -30,6 +30,10 @@
           <option name="url" value="git@gitlab.com:M0riTzx3/marketplace.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@bitbucket.org:emea_cf/c4c-marketing.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\aa94272\IdeaProjects" />
